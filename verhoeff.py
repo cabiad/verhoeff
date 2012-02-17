@@ -59,7 +59,9 @@ def calculate_verhoeff(integer):
     digit_list.reverse()
     # Iterate over digits in integer by iterating over string
     for i in range(0, len(digit_list)):
-        check = d[check][ p[i % 8] [digit_list[i]] ]
+        check = d[check][
+            p[i % 8][digit_list[i]]
+        ]
     return str(integer) + str(inv[check])
 
 
@@ -69,7 +71,9 @@ def validate_verhoeff(integer):
     digit_list.reverse()
     # Iterate over digits in integer by iterating over string
     for i in range(0, len(digit_list)):
-        check = d[check][ p[i % 8] [digit_list[i]] ]
+        check = d[check][
+            p[i % 8][digit_list[i]]
+        ]
     if check == 0:
         return True
     return False
