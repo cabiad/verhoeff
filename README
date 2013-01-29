@@ -1,5 +1,6 @@
-Overview of the Verhoeff Checksum Algorithm
----
+The Verhoeff Checksum Algorithm
+===============================
+
 For a detailed discussion, see: http://www.cs.utsa.edu/~wagner/laws/verhoeff.html
 
 Jacobus Verhoeff studied human transcription errors and determined that very few categories of errors make up the vast majority of mistakes. Single errors ('1' becomes '2'), adjacent transcription ('12' becomes '21'), and ommiting or adding a digit can account for all but a small percent in many circumstances.
@@ -8,8 +9,14 @@ Jacobus figured out that he could use the operation of what's known as the 'dihe
 
 It is really quite powerful and not that hard to implement, given the correct tables provided by Verhoeff's efforts.
 
+TODO
+----
+
+* Include tests that cover basic checksumming and checking, all single errors, and all adjacent transcriptions
+* Implement the error correcting code that's based on Verhoeff's algorithm
+
 Why Write This?
----
+---------------
 
 In late 2011 I heard about the Verhoeff Checksum Algorithm from a colleague. Further, he mentioned that others had built his algorithm up to an error correcting code (the algorithm for this modification, apparently stuck behind a paywall, is not something I've yet looked into).
 
