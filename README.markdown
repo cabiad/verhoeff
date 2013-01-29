@@ -9,6 +9,23 @@ Jacobus figured out that he could use the operation of what's known as the 'dihe
 
 It is really quite powerful and not that hard to implement, given the correct tables provided by Verhoeff's efforts.
 
+Usage
+-----
+
+> $ ./verhoeff.py -h
+> usage: verhoeff.py [-h] [-v] N [N ...]
+> 
+> By default, calculate a Verhoeff checksum for a number. With the '-d'
+> argument, instead validate a Verhoeff checksummed value.
+> 
+> positional arguments:
+>   N               integer to calculate or validate the Verhoeff checksum of
+> 
+> optional arguments:
+>   -h, --help      show this help message and exit
+>   -v, --validate  validate the integer's Verhoeff checksum (default: calculate
+                  the Verhoeff checksum)
+
 TODO
 ----
 
