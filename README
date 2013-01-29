@@ -1,0 +1,10 @@
+Background
+---
+
+In late 2011 I heard about a mathematician who had studied the most common human transcription errors and come up with an algorithm that could elegantly detect a great majority of them. Further, others had built his algorithm up to an error correcting code (the algorithm for this modification, stuck behind a paywall, is not something I've yet looked into).
+
+We were in the middle of trying to solve a problem about how to reliably instruct clients to provide a key account number with their wire deposits. Clients had to provide the number to a bank representative who would manually transcribe it into the wire deposit instructions.
+
+The manual transcription and the strange realities of the bank wire system meant that the numbers we received with the wires were often incorrect. We thought that if we provided a Verhoeff-checksummed version of the account number, we could improve reliability. For a proof of concept, I stayed late in the office a couple of weeks later and figured out enough about the algorithm to build this python implementation.
+
+There are a number of existing implementation, but it was fun to build this up from a description of the algorithm.
