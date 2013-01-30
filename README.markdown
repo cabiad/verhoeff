@@ -1,7 +1,7 @@
 The Verhoeff Checksum Algorithm
 ===============================
 
-For a detailed discussion, see: http://www.cs.utsa.edu/~wagner/laws/verhoeff.html
+(For a detailed discussion of Verhoeff's algorithm, see: http://www.cs.utsa.edu/~wagner/laws/verhoeff.html)
 
 Jacobus Verhoeff studied human transcription errors and determined that very few categories of errors make up the vast majority of mistakes. Single errors ('1' becomes '2'), adjacent transcription ('12' becomes '21'), and ommiting or adding a digit can account for all but a small percent in many circumstances.
 
