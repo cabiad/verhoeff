@@ -15,7 +15,7 @@ Usage
     $ ./verhoeff.py -h
     usage: verhoeff.py [-h] [-v] N [N ...]
     
-    By default, calculate a Verhoeff checksum for a number. With the '-d'
+    By default, calculate a Verhoeff checksum for a number. With the '-v'
     argument, instead validate a Verhoeff checksummed value.
     
     positional arguments:

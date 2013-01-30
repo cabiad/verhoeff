@@ -82,7 +82,7 @@ def validate_verhoeff(integer):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="""By default, calculate a Verhoeff checksum for a number.
-With the '-d' argument, instead validate a Verhoeff checksummed value.""")
+With the '-v' argument, instead validate a Verhoeff checksummed value.""")
     parser.add_argument(
         'integers', metavar='N', type=int, nargs='+',
         help='integer to calculate or validate the Verhoeff checksum of')
